@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshat Kotadia - Portfolio</title>
+  <script>
+    document.addEventListener("click", (event) => {
+      event.preventDefault();
+      const element = event.target;
+      const details = {
+        tag: element.tagName,
+        id: element.id || null,
+        class: element.className || null,
+        text: element.innerText ? element.innerText.slice(0, 50) : null,
+        timestamp: new Date().toISOString(),
+      };
+      console.log("Click event:", details);
+    });
+    trackUserEvents();
+  </script>
+</head>
+<body style="font-family: Arial, sans-serif; margin:20px;">
+
+  <div style="text-align:center;">
+    <img src="profile.jpg" alt="Profile Picture" style="width:120px; height:120px; border-radius:50%;">
+    <h1>Akshat Kotadia</h1>
+    <p>Email: <a href="mailto:kotadiaakshat2003@gmail.com">kotadiaakshat2003@gmail.com</a></p>
+    <p>
+      LinkedIn: <a href="https://www.linkedin.com/in/akshat-kotadia-32b2b6222/" target="_blank">Profile</a> |
+      GitHub: <a href="https://github.com/Akshat-A-K/" target="_blank">Akshat-A-K</a>
+    </p>
+  </div>
+
+  <h2>About Me</h2>
+  <p>I am a Computer Science enthusiast with hands-on experience in full-stack development, cloud computing, and problem-solving. I have interned at software companies, contributed to impactful projects, and I am passionate about building scalable and innovative tech solutions.</p>
+
+  <h2>Education</h2>
+  <ul>
+    <li>M.Tech in Computer Science – IIIT Hyderabad (2025 – Present)</li>
+    <li>B.Tech in Computer Science – Nirma University (2021 – 2025), CGPA: 8.36/10</li>
+    <li>12th – A.G. High School (89.23%), 2021</li>
+    <li>10th – A.G. High School (88.33%), 2019</li>
+  </ul>
+
+  <h2>Experience</h2>
+  <ul>
+    <li>Software Developer Intern – Iolite Softwares Pvt. Ltd. (Jan 2025 – Jun 2025)<br>
+    Worked on IP Management System using AngularJS & .NET 9, developed APIs, and optimized performance.</li>
+    <li>Software Developer Intern – Solvemate Tech Pte Ltd (May 2024 – Jul 2024)<br>
+    Built MERN dashboard with OAuth2.0 Google Auth, AWS-based features, and React Native loyalty app.</li>
+  </ul>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Programming Languages: C, C++, Python, Java, JavaScript, C#</li>
+    <li>Frameworks & Libraries: Flask, Node.js, Express.js, React.js, AngularJS, React Native, ASP.NET</li>
+    <li>Databases: MySQL, MS SQL Server, MongoDB, DynamoDB</li>
+    <li>Tools & Platforms: Git, GitHub, Docker, Postman, Jupyter Notebook, Google Colab, Kaggle, AWS</li>
+    <li>Other: REST APIs, OAuth 2.0, JWT, SMTP, Agile/Scrum, Serverless (AWS Lambda)</li>
+  </ul>
+
+  <p style="text-align:center; margin-top:40px;">© 2025 Akshat Kotadia | Portfolio</p>
+
+</body>
+</html>
