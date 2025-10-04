@@ -31,3 +31,7 @@ To view this portfolio locally:
 2.  Navigate into the project directory:
    cd Profile-page-html
 3.  Open index.html in your preferred web browser.
+
+## Assumptions
+- This portfolio is static and intended to be opened directly in a browser.
+- Images and assets are local and will load from the repo directory.
